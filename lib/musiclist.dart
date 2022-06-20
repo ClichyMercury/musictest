@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
-GestureDetector musiclist(song,/*  {String? title, bool? played, String? duration} */) {
+GestureDetector musiclist(
+  song,
+  /*  {String? title, bool? played, String? duration} */
+) {
   return GestureDetector(
       onTap: () {},
       child: Container(
