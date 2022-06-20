@@ -73,6 +73,7 @@ class _PeoplePageState extends State<PeoplePage> {
                       MaterialPageRoute(
                         builder: (context) => NowPlaying(
                           songModel: item.data![index],
+                          audioPlayer: _audioPlayer,
                         ),
                       ),
                     ) /* playSong(item.data![index].uri) */;

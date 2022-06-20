@@ -39,6 +39,9 @@ dependencies:
   on_audio_query: ^2.6.1
   permission_handler: ^10.0.0
   web_ffi: ^0.7.2
+  
+
+  
 
 dev_dependencies:
   flutter_test:
